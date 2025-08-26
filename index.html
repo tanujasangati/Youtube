@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="#">🏠 Home</a>
+    <a href="#">🎬 Shorts</a>
+    <a href="#">📺 Subscriptions</a>
+    <h3>You</h3>
+    <a href="#">🕘 History</a>
+    <a href="#">📂 Playlists</a>
+    <a href="#">⏰ Watch Later</a>
+    <a href="#">👍 Liked Videos</a>
+    <a href="#">⬇️ Downloads</a>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="logo">YouTube</div>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search">
+        <button id="searchBtn">🔍</button>
+      </div>
+      <button id="darkModeToggle">🌙</button>
+      <div class="user-icon"></div>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+      <button class="active">All</button>
+      <button>Music</button>
+      <button>Gaming</button>
+      <button>Movies</button>
+      <button>News</button>
+      <button>Sports</button>
+    </div>
+
+    <!-- Videos -->
+    <div class="videos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
